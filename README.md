@@ -3,4 +3,4 @@ This shellcode loader:
 * Opens an encrypted shellcode from a file named database.dar
 * It creates a new suspended thread and passes the shellcode and its size as parameters (in a struct of type PAYLOAD_INFO)
 * It sleeps for 15 seconds and then decrypts the shellcode
-* It resumes the thread, loading the shellcode in memory
+* It resumes the thread, loading the shellcode in memory. The shellcode is benign and simply runs the calculator.
